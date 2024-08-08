@@ -40,6 +40,8 @@ public class StepDefinitionImpl  extends SampleTest {
 	{
 		System.out.println("I add the product " + productName+" to the cart");
 		
+		System.out.println("I add the product " + productName+" to the cart after checkout");
+		
 	}
 	
 	@When("^Checkout (.+) and submit the order$")
@@ -49,6 +51,8 @@ public class StepDefinitionImpl  extends SampleTest {
 		System.out.println("The product " + productName +" is checked out and the order is submitted");
 		
 		System.out.println("The product " + productName +" is checked out and the order is submitted for git");
+		
+		System.out.println("The product " + productName +" is checked out and the order latest change");
 	}
 	
 	@Then("{string} message is displayed on ConfirmationPage")
