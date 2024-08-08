@@ -21,6 +21,8 @@ public class StepDefinitionImpl  extends SampleTest {
 		System.out.println("launch application and land on Ecommerce page");
 		
 		System.out.println("Git push pull check");
+		
+		System.out.println("Git commiting check");
 	}
 	
 	
