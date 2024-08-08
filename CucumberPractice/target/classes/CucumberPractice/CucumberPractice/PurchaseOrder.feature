@@ -14,5 +14,5 @@ Feature: Purchase the order from Ecommerce website
 
     Examples: 
       | name  | password | productName |
-      | name1 |        5 | success     |
+      | name1 |        3 | success     |
       | name2 |        7 | Fail        |

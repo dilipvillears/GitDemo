@@ -47,6 +47,8 @@ public class StepDefinitionImpl  extends SampleTest {
 	{
 		
 		System.out.println("The product " + productName +" is checked out and the order is submitted");
+		
+		System.out.println("The product " + productName +" is checked out and the order is submitted for git");
 	}
 	
 	@Then("{string} message is displayed on ConfirmationPage")
